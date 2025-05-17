@@ -6,14 +6,14 @@ A smart, real-time digital platform that enables food businesses to log surplus 
 
 ## Project Structure
 
-food-donation-app/\
-├── client/         # React Frontend\
-├── server/         # Express Backend\
-│    <br>└── models/\
-│          └── Donation.js\
-|      └── server.js\
-├── .gitignore\
-├── README.md\
+food-donation-app/<br>
+├── client/<br>         # React Frontend
+├── server/<br>         # Express Backend
+│   └── models/<br>
+│       └── Donation.js<br>
+│   └── server.js<br>
+├── .gitignore<br>
+├── README.md<br>
 
 ## Features
 
