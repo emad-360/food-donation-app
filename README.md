@@ -12,11 +12,11 @@ food-donation-app/
 
 ├── server/         # Express Backend
 
-│   └── models/
+│      └── models/
 
-│       └── Donation.js
+│          └── Donation.js
 
-│   └── server.js
+│      └── server.js
 
 ├── .gitignore
 
