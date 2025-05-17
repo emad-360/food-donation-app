@@ -22,9 +22,14 @@ food-donation-app/
 
 ├── README.md
 
-
+```mermaid
+flowchart TD
+  A[Food Donor] -->|Submits Donation| B(Server)
+  B -->|Stores in| C[MongoDB Atlas]
+  C --> D[Visible to NGO]
+  D -->|Accepts| E[Pickup Arranged]
 ---
-
+```
 ## Features
 
 - Food businesses can log surplus food donations.
