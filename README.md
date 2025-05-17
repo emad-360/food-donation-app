@@ -7,29 +7,14 @@ A smart, real-time digital platform that enables food businesses to log surplus 
 ## Project Structure
 
 food-donation-app/
-
 ├── client/         # React Frontend
-
 ├── server/         # Express Backend
-
-│      └── models/
-
-│          └── Donation.js
-
-│      └── server.js
-
+│   └── models/
+│       └── Donation.js
+|   └── server.js
 ├── .gitignore
-
 ├── README.md
 
-```mermaid
-flowchart TD
-  A[Food Donor] -->|Submits Donation| B(Server)
-  B -->|Stores in| C[MongoDB Atlas]
-  C --> D[Visible to NGO]
-  D -->|Accepts| E[Pickup Arranged]
----
-```
 ## Features
 
 - Food businesses can log surplus food donations.
