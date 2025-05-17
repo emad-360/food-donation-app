@@ -50,4 +50,40 @@ food-donation-app/
 ```bash
 git clone https://github.com/your-username/food-donation-app.git
 cd food-donation-app
+```
 
+2. **Setup backend**
+
+```bash
+cd server
+npm install
+```
+
+3. **Setup backend**
+   
+```bash
+cd ../client
+npm install
+```
+
+4. **Create .env file in the server folder**
+
+```bash
+MONGO_URI=your_mongodb_connection_string_here
+```
+
+5. **Run backend server**
+
+```bash
+cd ../server
+npm start
+```
+
+6. **Run frontend**
+
+```bash
+cd ../client
+npm start
+```
+
+7. **Open http://localhost:3000 in your browser.**
